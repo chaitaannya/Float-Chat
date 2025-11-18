@@ -1,0 +1,27 @@
+# Database
+psycopg2-binary==2.9.9
+
+# Data processing
+xarray==2024.2.0
+numpy==1.24.4
+
+# LangChain and AI
+langchain==1.0.5
+langchain-google-genai==3.0.2
+langgraph==1.0.3
+
+# Google AI
+google-generativeai==0.5.4
+
+# Data validation
+pydantic==2.14.4
+
+# Web framework
+Flask==3.1.1
+Flask-CORS==6.0.1
+
+# Environment management
+python-dotenv==1.1.1
+
+# Standard library (no installation needed)
+# os, re, json, math, datetime, typing, dataclasses

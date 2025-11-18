@@ -1,0 +1,57 @@
+--- System & IDE Files ---
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+--- BACKEND (AGENTS_AND_BACKEND) ---
+
+Python Cache (generated automatically)
+
+pycache/
+*.py[cod]
+*$py.class
+
+Virtual Environments
+
+venv/
+env/
+.venv/
+
+Secrets (Keep these safe!)
+
+AGENTS_AND_BACKEND/.env
+
+Generated Data / Output Files
+
+(Ignoring results.json because it likely changes every time you run the app)
+
+AGENTS_AND_BACKEND/results.json
+
+--- FRONTEND ---
+
+Dependencies (CRITICAL: This blocks the 137MB file)
+
+FRONTEND/node_modules/
+
+Next.js Build Output
+
+FRONTEND/.next/
+FRONTEND/out/
+FRONTEND/build/
+
+Environment Variables
+
+FRONTEND/.env
+FRONTEND/.env.local
+FRONTEND/.env.development.local
+FRONTEND/.env.test.local
+FRONTEND/.env.production.local
+
+Package Manager Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
